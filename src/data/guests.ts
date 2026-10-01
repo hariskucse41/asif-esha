@@ -39,10 +39,18 @@ export const guests: Guest[] = [
       "We would be truly happy to celebrate this beautiful occasion with you. We are so excited to have you with us. We can't wait to see you there.",
   },
   {
-    slug: "rahim",
-    name: "Rahim",
+    slug: "mahmudul-hasan",
+    name: "Mahmudul Hasan",
     relationship: "Friend",
-    message: "Bro, no excuses this time! Come celebrate with us!",
+    message: "You have to attend this party. Its Mandatory. We are so excited to have you with us. We can't wait to see you there.",
+  },
+
+  // Cousin
+  {
+    slug: "cousin-tania",
+    name: "Tania",
+    relationship: "Cousin",
+    message: "Come celebrate with us. The day will be brighter with you there.",
   },
 
   // Cousin
