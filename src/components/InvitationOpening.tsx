@@ -43,7 +43,7 @@ export function InvitationOpening({ guest, onOpen }: InvitationOpeningProps) {
 
           {guest ? (
             <div className="mx-auto mt-8 max-w-sm">
-              <p className="text-balance font-serif text-[1.65rem] leading-tight text-ink sm:text-3xl">Dear {guest.name},</p>
+              <p className="text-balance font-serif text-[1.65rem] leading-tight text-ink sm:text-3xl">Assalamualaikum, Dear {guest.name},</p>
               <p className="mt-3 text-[0.98rem] leading-relaxed text-brown">{guest.message}</p>
             </div>
           ) : null}
