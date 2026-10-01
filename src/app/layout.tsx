@@ -37,7 +37,7 @@ const arabic = Amiri({
 const siteUrl = getSiteUrl();
 
 const description =
-  "Join Asif and Esha for their Holud Program on 11 October, Wedding Program on 12 October, and Reception Program on 13 October 2026 in Boalia.";
+  "Join Asif and Esha for their Holud Program on 11 October, Wedding Program on 12 October in Boalia, and Reception Program on 13 October 2026.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

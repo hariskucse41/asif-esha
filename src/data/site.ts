@@ -24,11 +24,29 @@ export const celebration = {
   time: "1:00 PM",
 } as const;
 
+export const houses = {
+  groom: {
+    label: "Groom's house",
+    name: "Khordo",
+    locality: "Kalaroa, Satkhira",
+    address: "Khordo, Kalaroa, Satkhira",
+    mapsQuery: "Khordo, Kalaroa, Satkhira",
+  },
+  bride: {
+    label: "Bride's house",
+    name: "Boalia",
+    locality: "Kalaroa, Satkhira",
+    address: "Boalia, Kalaroa, Satkhira",
+    mapsQuery: "Boalia, Kalaroa, Satkhira",
+  },
+} as const;
+
+/** The Wedding Program is held at the bride's house in Boalia. */
 export const venue = {
-  name: "Boalia",
-  locality: "Kalaroa, Satkhira",
-  address: "Boalia, Kalaroa, Satkhira",
-  mapsQuery: "Boalia, Kalaroa, Satkhira",
+  name: houses.bride.name,
+  locality: houses.bride.locality,
+  address: houses.bride.address,
+  mapsQuery: houses.bride.mapsQuery,
 } as const;
 
 export const events = [
@@ -40,6 +58,7 @@ export const events = [
     day: "Sunday",
     time: null,
     title: "Holud Program",
+    place: "Groom's house in Khordo, and the bride's house in Boalia",
     summary: "Colors, laughter and family.",
     description: "A joyful Holud Program of colors, laughter and family.",
     featured: false,
@@ -52,6 +71,7 @@ export const events = [
     day: "Monday",
     time: "1:00 PM",
     title: "Wedding Program",
+    place: "Boalia, Kalaroa, Satkhira",
     summary: "The wedding ceremony with our families.",
     description:
       "Our Wedding Program, as we begin this beautiful new chapter with our family and loved ones.",
@@ -65,6 +85,7 @@ export const events = [
     day: "Tuesday",
     time: null,
     title: "Reception Program",
+    place: "Groom's house in Khordo, and the bride's house in Boalia",
     summary: "Bringing Esha home and celebrating together.",
     description:
       "Our Reception Program, as we bring Esha home and celebrate this beautiful new chapter with our family and loved ones.",

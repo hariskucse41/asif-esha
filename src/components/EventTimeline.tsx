@@ -35,6 +35,7 @@ export function EventTimeline() {
                     </p>
                     <h3 className="mt-2 text-[1.85rem] text-ink sm:text-4xl">{event.title}</h3>
                     {event.time ? <p className="mt-2 text-sm tracking-[0.16em] text-gold-deep">{event.time}</p> : null}
+                    <p className="mt-2 max-w-md text-base leading-relaxed text-gold-deep">{event.place}</p>
                     <p className="mt-3 max-w-md text-base leading-relaxed text-brown sm:text-lg">{event.summary}</p>
                   </article>
                 </div>
