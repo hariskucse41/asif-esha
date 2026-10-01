@@ -18,7 +18,7 @@ export function Closing() {
           </p>
           <p className="mt-10 font-script text-4xl text-gold-deep sm:text-5xl">With love,</p>
           <CoupleNames variant="short" className="mt-4" />
-          <p className="mt-8 font-serif text-lg tracking-[0.22em] text-ink">
+          <p className="date-mark mt-8 font-serif text-lg tracking-[0.14em] text-ink">
             <time dateTime={celebration.iso}>{celebration.mark}</time>
           </p>
         </div>

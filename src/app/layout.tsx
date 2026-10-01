@@ -37,7 +37,7 @@ const arabic = Amiri({
 const siteUrl = getSiteUrl();
 
 const description =
-  "Join Asif and Esha for their Reception Program on 12 October 2026, and the Family Program with loved ones in Boalia.";
+  "Join Asif and Esha for their Holud Program on 11 October, Wedding Program on 12 October, and Reception Program on 13 October 2026 in Boalia.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   applicationName: "Asif & Esha",
   openGraph: {
     title: "Asif & Esha",
-    description: "12 October 2026 · Reception Program",
+    description: "12 October 2026 · Wedding Program",
     type: "website",
     locale: "en_US",
     siteName: "Asif & Esha",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Asif & Esha",
-    description: "12 October 2026 · Reception Program",
+    description: "12 October 2026 · Wedding Program",
   },
   robots: {
     index: true,
@@ -75,7 +75,7 @@ export const viewport: Viewport = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Event",
-  name: "Reception Program — Asif & Esha",
+  name: "Wedding Program — Asif & Esha",
   description,
   startDate: celebration.dateTime,
   eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",

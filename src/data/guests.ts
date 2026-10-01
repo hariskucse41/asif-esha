@@ -23,58 +23,243 @@ import type { Guest } from "@/types/guest";
  *   Friends and cousins        →  you may be more casual
  */
 
+const withUs = "We are so excited to have you with us. We can't wait to see you there.";
+
+const messages = {
+  cousin: `Come celebrate with us. The day will be brighter with you there. ${withUs}`,
+  friend: `You have to attend this Program. Its Mandatory. ${withUs}`,
+  sister: `We would be truly happy to celebrate this beautiful occasion with you. ${withUs}`,
+  elder: `Your presence and blessings will make our celebration even more special. ${withUs}`,
+  student: `It would mean a lot to have you with us as we celebrate this new chapter. ${withUs}`,
+} as const;
+
 export const guests: Guest[] = [
-  {
-    slug: "emam-hossain-mimi-islam",
-    name: "Emam Hossain & Mimi Islam",
-    relationship: "Vai & Vabi",
-    message:
-      "Your presence and blessings will make our celebration even more special. We are so excited to have you with us. We can't wait to see you there.",
-  },
   {
     slug: "maria-marjan-zahid-hasan-ussas",
     name: "Maria Marjan & Zahid Hasan Ussas",
     relationship: "Sister & Brother-in-law",
-    message:
-      "We would be truly happy to celebrate this beautiful occasion with you. We are so excited to have you with us. We can't wait to see you there.",
+    message: messages.sister,
   },
+  {
+    slug: "lamiya-khatun",
+    name: "Lamiya Khatun",
+    relationship: "Sister",
+    message: messages.sister,
+  },
+  {
+    slug: "konica-khatun",
+    name: "Konica Khatun & Dulavai",
+    relationship: "Sister & Brother-in-law",
+    message: messages.sister,
+  },
+  {
+    slug: "nourin-achal-mahi",
+    name: "Nourin Achal Mahi",
+    relationship: "Sister",
+    message: messages.sister,
+  },
+  {
+    slug: "gazi-rahman-urmi",
+    name: "Gazi Rahman & Urmi",
+    relationship: "Sister & Brother-in-law",
+    message: messages.sister,
+  },
+  {
+    slug: "turab-hossen-tusher",
+    name: "Turab Hossen Tusher & Sister",
+    relationship: "Brother & Sister",
+    message: messages.sister,
+  },
+
+  // Cousins
+  {
+    slug: "fahad-hossain",
+    name: "Fahad Hossain",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "foysal-hossain",
+    name: "Foysal Hossain & Vabi",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "emam-hossain-mimi-islam",
+    name: "Emam Hossain & Vabi",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "eleas-hossain",
+    name: "Eleas Hossain & Vabi",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "kabirul-islam",
+    name: "Kabirul Islam & Vabi",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "khalid-hasan-raju",
+    name: "Khalid Hasan Raju",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "riyad-hasan-saju",
+    name: "Riyad Hasan Saju",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "liton",
+    name: "Liton",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "munna-hossain",
+    name: "Munna Hossain",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "murshida-khatun",
+    name: "Murshida Khatun",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "farzana-khatun-riya",
+    name: "Farzana Khatun Riya & Dulavai",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "jannatul",
+    name: "Jannatul",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "jwell-hossen",
+    name: "Jwell Hossen",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+  {
+    slug: "rabbi",
+    name: "Rabbi & Vabi",
+    relationship: "Cousin",
+    message: messages.cousin,
+  },
+
+  // Elders
+  {
+    slug: "b-uncle",
+    name: "B Uncle",
+    relationship: "Uncle",
+    message: messages.elder,
+  },
+  {
+    slug: "montu",
+    name: "Montu",
+    relationship: "Uncle",
+    message: messages.elder,
+  },
+  {
+    slug: "akram-kaku",
+    name: "Akram Kaku",
+    relationship: "Uncle",
+    message: messages.elder,
+  },
+  {
+    slug: "masud-rana",
+    name: "Masud Rana",
+    relationship: "Mama",
+    message: messages.elder,
+  },
+
+  // Friends
   {
     slug: "mahmudul-hasan",
     name: "Mahmudul Hasan",
     relationship: "Friend",
-    message: "You have to attend this party. Its Mandatory. We are so excited to have you with us. We can't wait to see you there.",
+    message: messages.friend,
   },
-
-  // Cousin
   {
-    slug: "cousin-tania",
-    name: "Tania",
-    relationship: "Cousin",
-    message: "Come celebrate with us. The day will be brighter with you there.",
+    slug: "ab-siddiq",
+    name: "AB Siddiq",
+    relationship: "Friend",
+    message: messages.friend,
   },
-
-  // Cousin
-  // {
-  //   slug: "cousin-tania",
-  //   name: "Tania",
-  //   relationship: "Cousin",
-  //   message: "Come celebrate with us. The day will be brighter with you there.",
-  // },
-
-  // Colleague
-  // {
-  //   slug: "colleague-nabil",
-  //   name: "Nabil",
-  //   relationship: "Colleague",
-  //   message:
-  //     "It would mean a lot to have you with us as we celebrate this new chapter.",
-  // },
-
-  // Parents' friend
-  // {
-  //   slug: "uncle-karim",
-  //   name: "Uncle Karim",
-  //   relationship: "Family Friend",
-  //   message: "Your blessings and presence would honor our family celebration.",
-  // },
+  {
+    slug: "khalid-hasan-jihad",
+    name: "Khalid Hasan Jihad",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "rezwanul-islam-shuvo",
+    name: "Rezwanul Islam Shuvo",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "mamun-hasan",
+    name: "Mamun Hasan",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "solaiman-hossen-sumon",
+    name: "Solaiman Hossen Sumon",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "iqbal-hossen",
+    name: "Iqbal Hossen",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "amit-biswas",
+    name: "Amit Biswas",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "irani-khatun",
+    name: "Irani Khatun",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "faria-mahjabin",
+    name: "Faria Mahjabin",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "bonna-khatun",
+    name: "Bonna Khatun",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "poly-akter-mim",
+    name: "Poly Akter Mim",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "bristy-khatun",
+    name: "Bristy Khatun",
+    relationship: "Student",
+    message: messages.student,
+  },
 ];

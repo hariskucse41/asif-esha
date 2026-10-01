@@ -12,14 +12,14 @@ export function Hero() {
           <p className="eyebrow">You are invited</p>
           <StarDivider className="mt-5" />
           <CoupleNames as="h1" id="couple-heading" tabIndex={-1} className="mt-8" />
-          <p className="mt-8 font-serif text-xl tracking-[0.18em] text-ink sm:text-2xl">
+          <p className="date-mark mt-8 font-serif text-xl tracking-[0.12em] text-ink sm:text-2xl">
             <time dateTime={celebration.iso}>{celebration.mark}</time>
           </p>
           <p className="mt-3 font-serif text-2xl text-ink sm:text-3xl">{mainEvent.title}</p>
           <p className="mt-3 text-sm tracking-[0.16em] text-gold-deep uppercase">{venue.address}</p>
           <p className="mx-auto mt-8 max-w-md text-base leading-relaxed text-brown sm:text-lg">
-            Join us for our Reception Program as we welcome {couple.bride.shortName} home and celebrate with the people
-            we love.
+            Join us for our Wedding Program, and for the Reception as we welcome {couple.bride.shortName} home and
+            celebrate with the people we love.
           </p>
           <div className="mt-14 flex flex-col items-center gap-3 text-gold-deep" aria-hidden="true">
             <span className="eyebrow">Scroll</span>

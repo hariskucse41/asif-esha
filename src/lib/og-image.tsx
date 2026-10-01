@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { ImageResponse } from "next/og";
 
 export const shareImage = {
-  alt: "Asif and Esha. 12 October 2026. Reception Program.",
+  alt: "Asif and Esha. 12 October 2026. Wedding Program.",
   size: { width: 1200, height: 630 },
   contentType: "image/png",
 };
@@ -80,7 +80,7 @@ export async function createShareImage() {
           />
           <div style={{ display: "flex", fontSize: 34, letterSpacing: 6 }}>12 OCTOBER 2026</div>
           <div style={{ display: "flex", marginTop: 18, fontSize: 32, color: "#5C4524" }}>
-            Reception Program
+            Wedding Program
           </div>
           <div style={{ display: "flex", marginTop: 28, fontSize: 22, color: "#5E5044", letterSpacing: 2 }}>
             Boalia, Kalaroa, Satkhira

@@ -101,6 +101,11 @@
     line-height: 2.1;
   }
 
+  .date-mark {
+    font-variant-numeric: lining-nums;
+    font-feature-settings: "lnum" 1, "onum" 0;
+  }
+
   .btn {
     display: inline-flex;
     align-items: center;

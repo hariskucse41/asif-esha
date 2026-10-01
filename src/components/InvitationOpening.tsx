@@ -37,7 +37,7 @@ export function InvitationOpening({ guest, onOpen }: InvitationOpeningProps) {
 
           <CoupleNames as="h1" id="opening-heading" className="mt-2" />
 
-          <p className="mt-6 font-serif text-lg tracking-[0.22em] text-ink sm:text-2xl">{celebration.mark}</p>
+          <p className="date-mark mt-6 font-serif text-lg tracking-[0.14em] text-ink sm:text-2xl">{celebration.mark}</p>
           <p className="mt-3 font-serif text-xl text-ink sm:text-2xl">{mainEvent.title}</p>
           <p className="mt-2 font-serif text-lg italic text-muted">You are warmly invited</p>
 

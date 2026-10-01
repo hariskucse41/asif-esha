@@ -32,7 +32,7 @@ export function Story() {
 
       <Reveal>
         <div className="mx-auto max-w-xl text-center">
-          <p className="eyebrow">
+          <p className="date-mark eyebrow">
             <time dateTime={celebration.iso}>{celebration.mark}</time>
           </p>
           <p className="mt-4 font-serif text-[1.85rem] leading-snug text-ink sm:text-4xl">
