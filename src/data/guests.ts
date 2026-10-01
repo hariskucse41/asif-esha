@@ -31,6 +31,7 @@ const messages = {
   sister: `We would be truly happy to celebrate this beautiful occasion with you. ${withUs}`,
   elder: `Your presence and blessings will make our celebration even more special. ${withUs}`,
   student: `It would mean a lot to have you with us as we celebrate this new chapter. ${withUs}`,
+  colleague: `We would be truly happy to celebrate this beautiful occasion with you. ${withUs}`,
 } as const;
 
 export const guests: Guest[] = [
@@ -60,13 +61,13 @@ export const guests: Guest[] = [
   },
   {
     slug: "gazi-rahman-urmi",
-    name: "Gazi Rahman & Urmi",
+    name: "Gazi Rahman Vai & Urmi Apu",
     relationship: "Sister & Brother-in-law",
     message: messages.sister,
   },
   {
     slug: "turab-hossen-tusher",
-    name: "Turab Hossen Tusher & Sister",
+    name: "Turab Hossen Tusher Vai & Sanchita Apu",
     relationship: "Brother & Sister",
     message: messages.sister,
   },
@@ -80,7 +81,7 @@ export const guests: Guest[] = [
   },
   {
     slug: "foysal-hossain",
-    name: "Foysal Hossain & Vabi",
+    name: "Foysal Hossain Vai & Vabi",
     relationship: "Cousin",
     message: messages.cousin,
   },
@@ -92,7 +93,7 @@ export const guests: Guest[] = [
   },
   {
     slug: "eleas-hossain",
-    name: "Eleas Hossain & Vabi",
+    name: "Eleas Hossain Vai& Vabi",
     relationship: "Cousin",
     message: messages.cousin,
   },
@@ -116,7 +117,7 @@ export const guests: Guest[] = [
   },
   {
     slug: "liton",
-    name: "Liton",
+    name: "Liton Vai",
     relationship: "Cousin",
     message: messages.cousin,
   },
@@ -134,7 +135,7 @@ export const guests: Guest[] = [
   },
   {
     slug: "farzana-khatun-riya",
-    name: "Farzana Khatun Riya & Dulavai",
+    name: "Farzana Akter Riya & Bayezid Dulavai",
     relationship: "Cousin",
     message: messages.cousin,
   },
@@ -152,7 +153,7 @@ export const guests: Guest[] = [
   },
   {
     slug: "rabbi",
-    name: "Rabbi & Vabi",
+    name: "Rabbi Vai& Vabi",
     relationship: "Cousin",
     message: messages.cousin,
   },
@@ -192,7 +193,7 @@ export const guests: Guest[] = [
   },
   {
     slug: "ab-siddiq",
-    name: "AB Siddiq",
+    name: "AB Siddiq(Bandle)",
     relationship: "Friend",
     message: messages.friend,
   },
@@ -234,13 +235,13 @@ export const guests: Guest[] = [
   },
   {
     slug: "irani-khatun",
-    name: "Irani Khatun",
+    name: "Erani Khatun",
     relationship: "Friend",
     message: messages.friend,
   },
   {
     slug: "faria-mahjabin",
-    name: "Faria Mahjabin",
+    name: "Faria Mahjabin Ananna",
     relationship: "Friend",
     message: messages.friend,
   },
@@ -261,5 +262,11 @@ export const guests: Guest[] = [
     name: "Bristy Khatun",
     relationship: "Student",
     message: messages.student,
+  },
+  {
+    slug: "nishat-jahan-tandra",
+    name: "Nishat Jahan Tandra",
+    relationship: "Colleague",
+    message: messages.colleague,
   },
 ];
