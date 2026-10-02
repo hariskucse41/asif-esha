@@ -350,5 +350,11 @@ export const guests: Guest[] = [
     relationship: "Friend",
     message: messages.friend,
   },
-  
+  {
+    slug: "mostofa-habibullah-joy",
+    name: "Mostofa Habibullah Joy",
+    relationship: "Cousin",
+    message: messages.cousin,
+  }
+
 ];
