@@ -19,7 +19,7 @@ export function PersonalGreeting({ guest }: PersonalGreetingProps) {
         <div className="mx-auto max-w-xl text-center">
           <p className="font-script text-4xl text-gold-deep sm:text-5xl">With love</p>
           <h2 id="greeting-heading" className="mt-4 text-[2.1rem] text-ink sm:text-5xl">
-            Assalamualaikum, <br /> Assalamualaikum, Dear {name},
+            Assalamualaikum, <br /> Dear {name},
           </h2>
           <StarDivider className="my-7" />
           <p className="text-lg leading-relaxed text-brown sm:text-xl">{message}</p>

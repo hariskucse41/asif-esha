@@ -32,6 +32,7 @@ const messages = {
   elder: `Your presence and blessings will make our celebration even more special. ${withUs}`,
   student: `It would mean a lot to have you with us as we celebrate this new chapter. ${withUs}`,
   colleague: `We would be truly happy to celebrate this beautiful occasion with you. ${withUs}`,
+  uncle: `Your presence and blessings will make our celebration even more special. ${withUs}`,
 } as const;
 
 export const guests: Guest[] = [
@@ -269,4 +270,85 @@ export const guests: Guest[] = [
     relationship: "Colleague",
     message: messages.colleague,
   },
+  {
+    slug: "reza",
+    name: "Nasim Reza Bin Mustafa",
+    relationship: "Uncle",
+    message: messages.uncle,
+  },
+
+  {
+    slug: "nabil",
+    name: "Rahat Morshed Nabil",
+    relationship: "Colleague & Friend",
+    message:
+      messages.colleague,
+  },
+  {
+    slug: "rabiul-islam",
+    name: "Rabiul Islam",
+    relationship: "Collleague & Friend",
+    message: messages.colleague,
+  },
+  {
+    slug: "shihab",
+    name: "Habibur Rahman Shihab",
+    relationship: "Colleague & Friend",
+    message: messages.colleague,
+  },
+  {
+    slug: "sakib",
+    name: "Safkat Mahmud Sakib",
+    relationship: "Colleague",
+    message: messages.colleague,
+  },
+  {
+    slug: "masum",
+    name: "Masum Billah",
+    relationship: "Colleague",
+    message: messages.colleague,
+  },
+  {
+    slug: "rumon",
+    name: "Rumon Hossain",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "rakiful",
+    name: "Rakiful Islam",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "roshed",
+    name: "Roshed Sorder(Siam Ahmed)",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "istyaque",
+    name: "Istyaque Ahmed",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "jannati",
+    name: "Sumaiya Jannati",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "hasib",
+    name: "Hasibul Islam",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  {
+    slug: "yasir",
+    name: "Yasir Vai",
+    relationship: "Friend",
+    message: messages.friend,
+  },
+  
 ];
