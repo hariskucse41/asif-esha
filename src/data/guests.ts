@@ -376,7 +376,7 @@ export const guests: Guest[] = [
   },
   {
     slug: "sakila-khatun",
-    name: "Sakila Khatun Apu",
+    name: "Sakila Khatun",
     relationship: "Sister",
     message: messages.sister,
   },
