@@ -391,6 +391,19 @@ export const guests: Guest[] = [
     name: "Asifa Farzana Shuborna",
     relationship: "Friend",
     message: messages.friend,
-  }
+  },
+  {
+    slug: "kohinur-islam-shanta-apu",
+    name: "Kohinur Islam Shanta Apu",
+    relationship: "Sister",
+    message: messages.sister,
+  },
+  {
+    slug: "rafia-tanvin-hira-apu",
+    name: "Rafia Tanvin Hira Apu",
+    relationship: "Sister",
+    message: messages.sister,
+  },
+
 
 ];
